@@ -28,8 +28,8 @@ function pararPiscar(){
 function piscarLampada(){
     const botaoPiscar = document.getElementById("piscar")
     if (botaoPiscar.textContent == "Piscar") {
-    idDesligar = setInterval(ligarLampada, 500)
-    idLigar = setInterval(desligarLampada, 750)
+    idDesligar = setInterval(ligarLampada, 1000)
+    idLigar = setInterval(desligarLampada, 1100)
     botaoPiscar.textContent = "Parar"
     
     }else{
